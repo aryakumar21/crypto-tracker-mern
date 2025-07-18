@@ -6,7 +6,7 @@ import CoinTable from './components/CoinTable';
 function App() {
   const [coins, setCoins] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log(coins)
+  console.log("coins",coins)
 
   const fetchCoins = async () => {
     try {
